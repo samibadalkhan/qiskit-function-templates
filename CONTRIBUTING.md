@@ -225,6 +225,12 @@ tox -ehamsim
 
 # Run tests for SQD PCM
 tox -esqdpcm
+
+# Run tests for the executor circuit function
+tox -ecircuit-executor
+
+# Run tests for the vanilla circuit function
+tox -ecircuit-vanilla
 ```
 
 ### Writing tests
